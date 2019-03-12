@@ -1,0 +1,17 @@
+{
+  "name": "duo-desktop",
+  "productName": "Duo",
+  "version": "1.0.0",
+  "description": "Electron app for Google Duo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "mac-build": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=./assets/icons/duo.icns --prune=true --out=release-builds",    
+  },
+  "author": "Owen LeJeune",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^4.0.8"
+  }
+}
