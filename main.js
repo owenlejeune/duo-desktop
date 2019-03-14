@@ -13,6 +13,8 @@ function createWindow() {
     win.loadURL("https://duo.google.com");
 
     win.on('closed', () => win=null);
+
+    require('./menu/mainmenu.js')
 }
 
 app.on('ready', createWindow);
